@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url("assets/backdrop.png") no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .about-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            text-align: center;
+        }
+        .avatar {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+        .quote {
+            font-size: 18px;
+            font-style: italic;
+            color: #333;
+            margin: 20px 0;
+        }
+        .social-buttons a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            transition: transform 0.3s;
+        }
+        .social-buttons a:hover {
+            transform: scale(1.1);
+        }
+        .github {
+            color: #333;
+        }
+        .youtube {
+            color: #FF0000;
+        }
+        .twitch {
+            color: #6441A4;
+        }
+    </style>
+    <meta property="og:title" content="About Loco">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://lococto.me/assets/avatar.png">
+    <meta property="og:url" content="https://lococto.me/">
+    <meta property="og:type" content="profile">
+    <meta property="og:image:alt" content="Loco">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Loco">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://lococto.me/assets/avatar.png">
+    <meta name="twitter:image:alt" content="Loco">
+</head>
+<body>
+    <div class="about-container">
+        <img src="assets/avatar.png" alt="Avatar" class="avatar">
+        <h1>Loco</h1>
+        <div class="quote">「一人では見ねない夢がある」</div>
+        <p>ゲームが大好きで、プログラミングも大好きだけど、どちらも下手です。でも、最善を尽くします。</p>
+        <div class="social-buttons">
+            <a href="https://github.com/Loco-CTO" class="github"><i class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/@LocoCTO" class="youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</body>
+</html>
